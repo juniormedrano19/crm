@@ -1,0 +1,373 @@
+.auth__main{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+   /*  background-color: lighten($color: $primary, $amount: 12) */
+   background-color: $fondoPrincipal;
+   flex-direction: column;
+
+
+}
+
+
+.auth__box-secondary{
+    background: $fondoFormulario;
+    width: 425px;
+    height: 623px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+   
+    display: flex;
+    justify-content: center;
+
+}
+
+.auth__box-container{
+   
+    /* border: 1px solid black; */
+   
+    
+
+   
+}
+
+
+
+
+.auth__title-login{
+  
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+
+color: $loginTitulo;
+
+
+/* Inside auto layout */
+
+
+padding: 10px 20px 10px 20px;
+
+
+
+margin-top: 20px;
+margin-bottom: 7.53px;
+/* border: 1px solid black; */
+
+
+
+ /*    color:black;
+    align-items: center;
+display: flex;
+justify-content: center;
+   margin-bottom: 20px;
+   font-family: 'Raleway', sans-serif;
+   font-size: 34px;
+   font-weight: 700; */
+    
+}
+
+.auth__social-media{
+
+}
+
+.auth__buttons{
+   
+    width: 361px;
+    height: 46px;
+    border: 1px solid $bordeSocialMedia;
+    background: $fondoFormulario;
+box-sizing: border-box;
+border-radius: 10px;
+margin-bottom: 14px;
+align-items: center;
+display: flex;
+justify-content: space-between;
+cursor: pointer;
+
+
+}
+.auth__logo{
+   
+width: 55px;
+height: 44px;
+background: $fondoFormulario;
+border: 1px solid $bordeSocialMedia;
+
+border-radius: 10px 0px 0px 10px;
+/* margin-top: -1px; */
+margin-left: -1px;
+align-items: center;
+display: flex;
+justify-content: center;
+
+
+}
+
+.auth__google-svg{
+    
+}
+.auth__botonFont{
+    width: 306px;
+    height: 45px;
+/* border: 1px solid black; */
+align-items: center;
+display: flex;
+justify-content: center;
+}
+.auth__font{
+    font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: $botonFont;
+
+
+
+}
+
+
+.auth__microsoft-svg{
+
+}
+
+
+.auth_centerLine{
+    margin-top: 11.58px;
+    margin-bottom: 11.32px;
+    align-items: center;
+display: flex;
+justify-content: space-between;
+}
+.auth__line{
+  
+width: 165px;
+height: 0px;
+
+
+border: 1px solid rgba(164, 164, 164, 0.3);
+}
+.auth__fontCenter{
+    padding: 0px 1px;
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 9px;
+line-height: 12px;
+
+color: $Or;
+   
+}
+
+.auth__subtitleCenter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 21.27px;
+ 
+    /* width: 300px;
+    height: 37.73px;
+     */
+    
+}
+
+.auth__subtitleFont{
+
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    
+    /* secundario */
+    
+    color: $CenterFont;
+    
+    
+    /* Inside auto layout */
+    
+ /*    flex: none; */
+    order: 0;
+    flex-grow: 0;
+   /*  margin: 0px 10px; */
+}
+
+.auth__label{
+margin-bottom: 7px;
+display: flex;
+justify-content: space-between;
+
+
+}
+
+.auth__labelEmail{
+
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    
+    color: $loginTitulo;
+}
+::placeholder {
+   
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    
+    /* fontSec */
+    
+    color: $placeholder;
+  padding-left: 9.06px;
+  
+  }
+
+.auth__input{
+
+width: 361px;
+height: 46px;
+border: 1px solid lighten($color: $borderInput, $amount: 10);
+border-radius: 8px;
+outline: none;
+background-color: $fondoFormulario;
+margin-bottom: 24px;
+
+    
+/*     color:black;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    font-family: Raleway;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 100%;
+    transition: border-bottom 0.3s ease;
+    &:focus{
+        border-bottom: 1px solid $primary;
+        outline:none;
+    } */
+
+}
+
+  /* .input-field input::placeholder {
+    color: #aaa;
+    font-weight: 500;
+  } */
+
+ 
+  .auth__eye{
+     
+      position: absolute;
+      right: 595px;
+      top: 460px;
+      font-size: 16px;
+      cursor: pointer
+  }
+ 
+  .input__text{
+/*     position: relative; */
+  }
+  
+ .auth__forgetPass{
+margin-top:10px ;
+display: flex;
+justify-content: end;
+ }
+ .auth__forgetFont{
+  
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    
+    color: $botonFont;
+ }
+  
+.auth__login-button{
+    /* Auto layout */
+margin-top: 25px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 90px;
+width: 362px;
+height: 42px;
+
+background: $fondoPrincipal;
+box-shadow: -18px -18px 30px rgba(255, 255, 255, 0.25), 18px 18px 30px #D1D9E6;
+border-radius: 10px;
+cursor: pointer;
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+  
+    &:hover{
+        background-color: lighten($color: $fondoPrincipal, $amount: 20);
+    }
+    
+}
+
+.auth__footer{
+   margin-top: 20px;
+}
+
+.auth__footerFont{
+
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 14px;
+/* identical to box height */
+
+
+color: $footerFontLogin;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+}
