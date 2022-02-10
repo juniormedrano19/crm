@@ -2,7 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Crm } from './Crm';
 import { LoginScreen } from './components/auth/LoginScreen';
+import { CrmScreen } from './components/crm/CrmScreen';
 ;
+
 
 import './styles/styles.scss';
 
@@ -10,7 +12,7 @@ import './styles/styles.scss';
 
 ReactDOM.render(
 
-<LoginScreen />
+<CrmScreen />
 ,
   document.getElementById('root')
 );
