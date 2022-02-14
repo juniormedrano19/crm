@@ -5,83 +5,92 @@
 }
 .crm__sidebarContainer{
 
-    width: 5.99vw;
-    height: 100vh;
     background: $container;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     display: flex;
     flex-direction: column;
+    height: 100vh;
     justify-content: space-between;
+    /* width: 5.99vw; */
+    width: 4.166vw;
 }
 .crm__sidebar1{
     align-items: center;
+    border-bottom: 0.5px solid $lineContainer;
     display: flex;
     justify-content: center;
-    border-bottom: 0.5px solid $lineContainer;
 
 }
 .crm__circle{
+background: $circleContainer;
+border-radius: 50px;
+height: 35px;
+margin-bottom: 8px;
 margin-top: 17px;
 width: 35px;
-height: 35px;
-border-radius: 50px;
-background: $circleContainer;
-margin-bottom: 8px;
 }
 
 .crm__sidebar2{
 align-items: center;    
+border-bottom: 0.5px solid $lineContainer;
 display: flex;
 flex-direction: column;
 height: 430px;
-border-bottom: 0.5px solid $lineContainer;
 }
 
 .crm__active{
-   margin-top: 24px;
-    padding:14px 13px 15px 13px ;
-   color: $fondoFormulario;
-    width: 35px;
-    height: 35px;
-    left: 29px;
-    top: 108px;
     background-color:$circleContainer ;
     border-radius: 7px;
     cursor: pointer;
+    height: 35px;
     
+    padding:14px 13px 15px 13px ;
+    
+    width: 35px;
+   color: $fondoFormulario;
+   margin-top: 24px;
+    
+}
+.crm__Boxinactive{
+    width: 64px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
 }
 
 .crm__inactive{
-    margin-top: 24px;
-   color: $iconInactive;
-    width: 35px;
-    height: 35px;
-    left: 29px;
-    top: 108px;
     cursor: pointer;
+    height: 35px;
+  
+   
+
+    width: 35px;
+   color: $iconInactive;
    
    
 }
 
 .crm__inactive:hover{
-    margin-top: 24px;
-    padding:14px 13px 15px 13px ;
-   color: $fondoFormulario;
-    width: 35px;
-    height: 35px;
-    left: 29px;
-    top: 108px;
     background-color:$circleContainer ;
     border-radius: 7px;
     cursor: pointer;
+    height: 35px;
+    left: 29px;
+    margin-top: 24px;
+    padding:14px 13px 15px 13px ;
+    top: 108px;
+    width: 35px;
+   color: $fondoFormulario;
 }
 
 .crm__sidebar3{
     align-items: center;    
+    border-bottom: 0.5px solid $lineContainer;
     display: flex;
     flex-direction: column;
     height: 145px;
-    border-bottom: 0.5px solid $lineContainer;
     }
 
     .crm__sidebar4{
@@ -98,16 +107,19 @@ border-bottom: 0.5px solid $lineContainer;
 /* NAVBAR */
 .crm__navbar{
    
-width: 94.01vw;
-height: 61px;
-box-sizing: border-box;
-align-items: center;
+
     display: flex;
     justify-content: end;
-
-background: $fondoFormulario;
 /* border: 1px solid black; */
+align-items: center;
+background: $fondoFormulario;
 border-bottom: 0.5px solid $lineContainer;
+box-sizing: border-box;
+height: 61px;
+width: 95.8vw;
+margin-bottom: 3px;
+
+
 }
 
 .crm__navbarGroup1{
@@ -120,8 +132,8 @@ border-bottom: 0.5px solid $lineContainer;
 }
 .crm_Picprofile{
    
-    width: 32px;
     height: 32px;
+    width: 32px;
    border-radius: 50px;
    margin: 17px 0px 12px 0px;
 cursor: pointer;
@@ -129,13 +141,13 @@ cursor: pointer;
 }
 
 .crm__Circleready{
-    width: 6px;
-    height: 6px;
+
     border-radius: 50px;
+    height: 6px;
     position: absolute;
     right:125px;
     top: 20px;
-
+    width: 6px;
 background: #78E08F;
 border: 1.2px solid #FFFFFF;
 }
@@ -143,31 +155,31 @@ border: 1.2px solid #FFFFFF;
 .crm__profileName{
    
 
-    width: 57px;
-    height: 13px;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 13px;
-    letter-spacing: 0.5px;
-    margin:26px 0px 22px 8px;
     color: #1F384C;
     cursor: pointer;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    height: 13px;
+    letter-spacing: 0.5px;
+    line-height: 13px;
+    margin:26px 0px 22px 8px;
+    width: 57px;
 }
 
 
 .crm__iconDown{
  
-    width: 20px;
-    height: 20px;
-  
-margin:23px 40px 18px 3px;
 
   
+  
+    height: 20px;
+    width: 20px;
 color: #1F384C;
-opacity: 0.5;
 cursor: pointer;
+margin:23px 40px 18px 3px;
+opacity: 0.5;
 }
 .crm__navbarGroup2{
     
@@ -175,33 +187,33 @@ cursor: pointer;
 
 .crm__bellNotification{
     
-    width: 12.8px;
-    height: 16px;
     color: #B0C3CC;
-    margin:25px 19.2px 20px 0px;
     cursor: pointer;
+    height: 16px;
+    margin:25px 19.2px 20px 0px;
+    width: 12.8px;
 }
 
 
 .crm__CircleNotification{
-    width: 6px;
-    height: 6px;
+
     border-radius: 50px;
+    cursor: pointer;
+    height: 6px;
     position: absolute;
     right:178px;
     top: 20px;
-    cursor: pointer;
-
+    width: 6px;
 background: #EC5252;
 border: 1.2px solid #FFFFFF;
 }
 
 .crm__trophy{
-width: 15px;
-height: 15px;
-margin: 26px 12px 20px 0px;
 color: #74B9FF;
 cursor: pointer;
+height: 15px;
+margin: 26px 12px 20px 0px;
+width: 15px;
 }
 
 
@@ -209,11 +221,11 @@ cursor: pointer;
 /* Icono Guardar */
 
 .container-3{
-    width: 199px;
+    margin:0px 9px 8.5px 0px;
+    position: relative;
     vertical-align: middle;
     white-space: nowrap;
-    position: relative;
-    margin:0px 9px 8.5px 0px;
+    width: 199px;
   }
   
   .container-3 input#search{
@@ -252,18 +264,18 @@ border-radius: 15px;
   .container-3 input#search::-webkit-input-placeholder {
      color:  #A0AEC0;
      font-family: Poppins;
+     font-size: 10px;
      font-style: normal;
      font-weight: normal;
-     font-size: 10px;
      line-height: 150%;
   }
   
   .container-3 input#search:-moz-placeholder { /* Firefox 18- */
     color:  #A0AEC0;  
     font-family: Poppins;
+    font-size: 10px;
     font-style: normal;
     font-weight: normal;
-    font-size: 10px;
     line-height: 150%;
   }
   
@@ -279,22 +291,22 @@ border-radius: 15px;
   .container-3 input#search:-ms-input-placeholder {  
     color:  #A0AEC0;  
     font-family: Poppins;
+    font-size: 10px;
     font-style: normal;
     font-weight: normal;
-    font-size: 10px;
     line-height: 150%;
   }
   
   
   .container-3 .icon{
-    position: absolute;
-    top: 50%;
+    color: #2D3748;
+    height: 15px;
     margin-left: 17px;
     margin-top: 10px;
-    z-index: 1;
-    color: #2D3748;
+    position: absolute;
+    top: 50%;
     width: 15px;
-    height: 15px;
+    z-index: 1;
   
      -webkit-transition: all .55s ease;
     -moz-transition: all .55s ease;
@@ -312,16 +324,23 @@ border-radius: 15px;
 /* Indicator */
 
 .crm__indicator{
-    width: 92.83vw;
-    height: 89px;
     background: #FFFFFF;
+    /* height: 89px; */
+    height: 8.310vh;
+    width: 95.2vw;
+align-items: center;
+border-radius: 20px;
 border: 0.5px solid #C8CBD9;
 box-sizing: border-box;
-border-radius: 20px;
-margin: 0 auto;
-margin-top: 5px;
-align-items: center;
 display: flex;
+margin-top: 5px;
+margin: 0 auto;
+margin-bottom: -3px;
+/* backdrop-filter: blur(16px) saturate(180%);
+-webkit-backdrop-filter: blur(16px) saturate(180%);
+background-color: rgba(255, 255, 255, 0.75);
+border-radius: 12px;
+border: 1px solid rgba(209, 213, 219, 0.3); */
 
 }
 
@@ -334,12 +353,12 @@ flex-direction: row;
 
 
 .crm_circleState{
-  width: 24px;
-  height: 24px;
-  border-radius: 50px;
     
     background: #78E08F;
     margin:0px 9px 0px 10px;
+  border-radius: 50px;
+  height: 24px;
+  width: 24px;
 
 }
 
@@ -349,60 +368,61 @@ flex-direction: row;
 
 .crm__ready{
    
+    
+    
+    /* identical to box height, or 81% */
+    color: #004E92;
     font-family: Poppins;
+    font-size: 16px;
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
-    line-height: 13px;
-    /* identical to box height, or 81% */
-    
     letter-spacing: 0.5px;
-    
-    color: #004E92;
+    line-height: 13px;
     
 }
 
 .crm_country{
 
-margin-top: 3px;
+
+
+/* identical to box height, or 108% */
+color: rgba(0, 0, 0, 0.4);
 font-family: Poppins;
+font-size: 12px;
 font-style: normal;
 font-weight: 600;
-font-size: 12px;
-line-height: 13px;
-/* identical to box height, or 108% */
-
 letter-spacing: 0.5px;
-
-color: rgba(0, 0, 0, 0.4);
+line-height: 13px;
+margin-top: 3px;
 
 }
 
 .crm__iconDownStatus{
-    width: 15px;
-    height: 15px;
-  
-margin:0px 9px 0px 0px;
 
   
+  
+    height: 15px;
+    width: 15px;
 color: #000;
 cursor: pointer;
+margin:0px 9px 0px 0px;
 }
 .crm__indicatorCard{
-  width: 81vw;
     display: flex;
     justify-content: space-between;
+  width: 81vw;
 }
 .crm__card{
-    width: 100vw;
+    align-items: center;
     display: flex;
     justify-content: space-between;
+    width: 100vw;
 }
 
 .crm_cardBlue{
 
-width: 164px;
-height: 75px;
+width:  10.677vw;
+height:  7.1vh;
 margin-left: 45px;
 background: #3656C9;
 border-radius: 10px;
@@ -421,14 +441,14 @@ justify-content: space-between;
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 30px;
     line-height: 13px;
     /* identical to box height, or 54% */
     
     letter-spacing: 0.5px;
     
     color: #FFFFFF;
-    margin-bottom: 6px;
+    /* margin-bottom: 6px; */
 }
 
 .crm__fontTextIndicator{
@@ -454,7 +474,7 @@ color: rgba(255, 255, 255, 0.8);
     align-items: center;
     display: flex;
     justify-content: center;
-    margin-bottom: 8px;
+    /* margin-bottom: 8px; */
 }
 
 
@@ -484,101 +504,210 @@ color: rgba(255, 255, 255, 0.8);
 
 .crm__iconIndicatorRight{
     margin-right: 11px;
+  
 }
 .crm_cardRed{
 
-    width: 164px;
-    height: 75px;
+    width:  10.677vw;
+height:  7.1vh;
     margin-left: 45px;
     background: #EE5253;
     border-radius: 10px;
     filter: drop-shadow(0px 4px 4px rgba(238, 82, 83, 0.25));
+    align-items: center;
+display: flex;
+justify-content: space-between;
     }
-
+.crm__circleIndicatorRed{
+    width: 32px;
+    height: 32px;
+    background: #FDCBBA;
+    border-radius: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 8px; */
+}
 
 .crm_cardYellow{
 
-        width: 164px;
-        height: 75px;
+    width:  10.677vw;
+    height:  7.1vh;
         margin-left: 45px;
         background: #FECF48;
         border-radius: 10px;
         filter: drop-shadow(0px 4px 4px rgba(254, 207, 72, 0.25));
+        align-items: center;
+display: flex;
+justify-content: space-between;
      }
+
+     .crm__fontNumberIndicatorBlue{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 13px;
+        /* identical to box height, or 54% */
+        
+        letter-spacing: 0.5px;
+        
+     
+        color: #004E92;
+      /*   margin-bottom: 6px; */
+     }
+
+     .crm__indicatorIconBlue{
+        color:#004E92;;
+        width: 16px;
+        height: 16px;
+     }
+
+     .crm__circleIndicatorYellow{
+        width: 32px;
+        height: 32px;
+        background: #FEF1B5;
+        border-radius: 50px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+     /*    margin-bottom: 8px; */
+     }
+
 
 
      .crm_cardGreen{
 
-        width: 164px;
-        height: 75px;
+        width:  10.677vw;
+        height:  7.1vh;
         margin-left: 45px;
         background: rgba(0, 184, 148, 0.8);
         border-radius: 10px;
         filter: drop-shadow(0px 4px 4px rgba(5, 196, 107, 0.25));
+        align-items: center;
+display: flex;
+justify-content: space-between;
+     }
+     .crm__circleIndicatorGreen{
+        width: 32px;
+        height: 32px;
+        background: #94F7C8;
+        border-radius: 50px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+      /*   margin-bottom: 8px; */
      }
 
 
      
 .crm_cardBlack{
 
-    width: 164px;
-    height: 75px;
+    width:  10.677vw;
+height:  7.1vh;
     margin-left: 45px;
     background: #222F3E;
     border-radius: 10px;
     filter: drop-shadow(0px 4px 4px rgba(34, 47, 62, 0.25));
+    align-items: center;
+display: flex;
+justify-content: space-between;
 }
 
+.crm__circleIndicatorBlack{
+    width: 32px;
+    height: 32px;
+    background: rgba(143, 173, 197, 0.9);
+    border-radius: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 8px; */
+ }
+
+
 .crm_cardOrange{
-    width: 164px;
-    height: 75px;
+    width:  10.677vw;
+    height:  7.1vh;
     margin-left: 45px;
     background: #FA983A;
     border-radius: 10px;
     filter: drop-shadow(0px 4px 4px rgba(250, 152, 58, 0.25));
+    align-items: center;
+display: flex;
+justify-content: space-between;
 }
+
+.crm__circleIndicatorOrange{
+    width: 32px;
+    height: 32px;
+    background: #FFD8B2;
+    border-radius: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 8px; */
+ }
+
 
 .crm__article{
     margin: 0px 10px 0px 3px;
     align-items: center;
     display: flex;
     justify-content: space-between;
+    
 }
 
 
 /* GESTIONES */
 
 .crm__gestiones{
-    margin: 6px 0px 0px 9px;
-    width: 36vw;
-    height: 47.0914vh;
+    margin-top: 6px;
+  /*   margin: 6px 0px 0px 9px; */
+    width: 39vw;
+    height: 51vh;
     background: #FFFFFF;
 border: 0.5px solid #C8CBD9;
 box-sizing: border-box;
 box-shadow: 0px 3.5px 5.5px rgba(0, 0, 0, 0.02);
 border-radius: 15px;
+margin-left: 3px;
+/* backdrop-filter: blur(16px) saturate(180%);
+-webkit-backdrop-filter: blur(16px) saturate(180%);
+background-color: rgba(255, 255, 255, 0.75);
+border-radius: 12px;
+border: 1px solid rgba(209, 213, 219, 0.3); */
 }
 
 
 /* Information */
 .crm__information{
-    margin: 6px 0px 0px 31px;
-    width: 36vw;
-    height:  47.0914vh;
+    /* margin: 6px 0px 0px 31px; */
+    width: 39vw;
+    height: 51vh;
     background: #FFFFFF;
 border: 0.5px solid #C8CBD9;
 box-sizing: border-box;
 box-shadow: 0px 3.5px 5.5px rgba(0, 0, 0, 0.02);
 border-radius: 15px;
+margin-top: 6px;
+margin-left: -8px;
+/* backdrop-filter: blur(16px) saturate(180%);
+-webkit-backdrop-filter: blur(16px) saturate(180%);
+background-color: rgba(255, 255, 255, 0.75);
+border-radius: 12px;
+border: 1px solid rgba(209, 213, 219, 0.3); */
 }
 
 
 
 /*call*/
 .crm__call{
-    margin: 6px 0px 0px 31px;
-    width: 16vw;
-    height:  47.0914vh;
+    /* margin: 6px 0px 0px 31px; */
+    margin-top: 6px;
+    margin-left: -8px;
+    width:16vw;
+    height: 51vh;
     background: #FFFFFF;
 border: 0.5px solid #C8CBD9;
 box-sizing: border-box;
@@ -587,6 +716,11 @@ border-radius: 12px;
 
 display: flex;
 justify-content: center;
+/* backdrop-filter: blur(16px) saturate(180%);
+-webkit-backdrop-filter: blur(16px) saturate(180%);
+background-color: rgba(255, 255, 255, 0.75);
+border-radius: 12px;
+border: 1px solid rgba(209, 213, 219, 0.3); */
 
 
 }
@@ -608,10 +742,28 @@ color:  #000;
     font-size: 20px;
     letter-spacing: 0.05em;
     text-align: center;
-
+outline-color: #3656C9;;
 }
 
+.crm_callContainer1{
+   
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 13vw;
+height: 50px;
+margin-top: 5px;
+/* margin-left: 15px; */
+/* border: 1px solid black; */
+}
 
+.crm_callContainer2{
+    align-content: center;
+    display: flex;
+    justify-content: center;
+   
+   /*  border: 1px solid black; */
+}
 
 .crm_callContainer input#number::-webkit-input-placeholder {
     color:  #A0AEC0;
@@ -651,8 +803,9 @@ color:  #000;
  }
  
  .crm__history{
-    width: 15vw;
-    height: 22vh;
+    width: 15.5vw;
+    height: 27.5vh;
+    margin-left: 5px;
     flex-grow: 1;
     overflow-y: scroll;
     
@@ -700,11 +853,14 @@ color:  #000;
  }
 
  .crm__buttonsCall{
+     align-items: center;
     display: flex;
-    justify-content: space-between;
-    width: 14.64vw;
+    justify-content: center;
+    width: 16vw;
 height: 50px;
 margin-top: 5px;
+/* margin-left: 15px; */
+/* border: 1px solid black; */
      
  }
 
@@ -751,7 +907,9 @@ color: #fff;
 }
 
 .crm__callFonts{
+    width: 15vw;
 margin-top: 7px;
+margin-left: 5px;
 }
 .crm__callTitle{
 
@@ -922,12 +1080,13 @@ flex-direction: column;
 }
 
 .crm__infoMenu{
-width: 32.036vw;
+width: 38.5vw;
 height: 40px;
 background: #F2F2F2;
 border: 1px solid #EEEEEE;
 box-sizing: border-box;
 border-radius: 12px;
+
 }
 
 
@@ -935,6 +1094,7 @@ border-radius: 12px;
   margin: 4px 0px 3px 0px ;
 display: flex;
 flex-direction: row;
+/* border-bottom: 1px solid black; */
 
 
 }
@@ -943,21 +1103,23 @@ flex-direction: row;
     align-items: center;
     display: flex;
     flex-direction: row;
-    width: 16vw;
+    width: 20vw;
     
 }
 
 
 .crm__infoCard{
   
-    width: 32.036vw;
-    height: 36.01108vh;
+    width: 38.8vw;
+    height: 40vh;
   
     
     background: #FFFFFF;
-    border: 0.5px solid #C8CBD9;
+    /* border: 0.5px solid #C8CBD9; */
     box-sizing: border-box;
     border-radius: 15px;
+    margin-bottom: 8px;
+  /*   border:1px solid black; */
 }
 
 
@@ -965,7 +1127,7 @@ flex-direction: row;
     align-items: center;
     display: flex;
     justify-content: space-between;
-    margin:1px 28.33px 1px 26px;
+    margin:1px 30px 1px 30px;
 }
 .crm__menuActive{
     align-items: center;
@@ -1065,6 +1227,13 @@ width: 8vw;
     margin: 5px 29px;
 }
 
+.crm__menuTop{
+    display: flex;
+    justify-content: space-between;
+    border-bottom:  1px solid #E2E8F0;
+    padding-bottom: 6px;
+ 
+}
 .crm__menu{
     display: flex;
     justify-content: space-between;
@@ -1237,8 +1406,8 @@ flex-direction: row;
 .crm__tipificaciones{
 
  
-    width: 74.8vw;
-    height: 27.70083vh;
+    width: 78.2vw;
+    height: 29.5vh;
    
     
     background: #FFFFFF;
@@ -1247,12 +1416,14 @@ flex-direction: row;
     box-shadow: 0px 3.5px 5.5px rgba(0, 0, 0, 0.02);
     border-radius: 15px;
 
-
-    margin: 6px 0px 0px 9px;
+/* 
+    margin: 6px 0px 0px 9px; */
     align-items: center;
     display: flex;
    
     justify-content: center;
+    margin-top: 3px;
+    margin-left: 6px;
 
 
 }
@@ -1260,14 +1431,14 @@ flex-direction: row;
 
 .crm__chat{
     width: 16vw;
-    height: 27.70083vh;
+    height: 29.5vh;
     background: #FFFFFF;
     border: 0.5px solid #C8CBD9;
     box-sizing: border-box;
     box-shadow: 0px 3.5px 5.5px rgba(0, 0, 0, 0.02);
     border-radius: 15px;
    /*  margin: 6px 0px 0px 20px; */
-   margin: 6px 10px 0px 9px;
+   margin: 4px 10px 0px 9px;
 }
 
 .crm__DownBar{
@@ -1280,14 +1451,16 @@ flex-direction: row;
 .crm__inputsTipificaciones{
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 5px;
 
 }
 
 .crm__buttonsSaveClean{
- 
+    margin-top: 10px;
+ align-items: center;
     display: flex;
+    justify-content: center;
   
 }
 
@@ -1360,7 +1533,7 @@ flex-direction: row;
 
 .crm__inputTip1{
     margin-top: 10px;
-    width: 53.75vw;
+    width: 68vw;
     height: 5.8171vh;
     
     
@@ -1459,16 +1632,18 @@ flex-direction: row;
  }
 
  .crm__tipificacionesContainer{
-width: 65vw;
+    width: 76vw;
 height: 27.70083vh;
 
  }
 
 
  .crm__fontTipificaciones{
-margin-top: 13px;
+margin-top: 10px;
 padding-bottom: 6px;
 border-bottom:0.5px solid #C8CBD9 ;
+width: 76vw;
+
  }
 
 
@@ -1487,6 +1662,7 @@ color: #2D3748;
 
 
  .crm__tipifacionButtons{
+     margin-top: 20px;
      align-items: center;
     
     display: flex;
@@ -1497,7 +1673,7 @@ color: #2D3748;
  /*Chat*/
 
  .crm__chatContainer{
-    width:  13.671vw;
+    width:  15vw;
     height: 27.70083vh;
 /*     align-items: center;
     display: flex;
@@ -1506,7 +1682,9 @@ color: #2D3748;
  }
  .crm__fontChat{
     margin-top: 13px;
-    margin-left: 30px;
+    margin-left: 5px;
+
+    width: 15vw;
     padding-bottom: 6px;
     border-bottom:0.5px solid #C8CBD9 ;
     align-items: center;
@@ -1564,7 +1742,7 @@ right:5px ;
     flex-direction: column;
     justify-content: center;
     padding: 0px 0px 0px 3px;
-    margin:10px 0px 0px 30px;
+    margin: 10px 0px 0px 5px;
  }
 
 
@@ -1601,7 +1779,7 @@ right:5px ;
 
 
  .crm__gestionesContainer{
-     width: 36vw;
+     width: 39vw;
   
  }
 
@@ -1663,20 +1841,40 @@ right:5px ;
     justify-content: center;
 }
 .crm__MainTable{
-    width:32vw;
-    height: 40vh;
-   /*  border: 1px solid black; */
+    width:39vw;
+    height: 44vh;
+  /*   border: 1px solid black; */
 }
 
    .crm__gestionesTable{
-    width:36vw;
-    align-items: center;
-    display:flex;
-    justify-content: center;
+    width:39vw;
+    height: 45vh;
     /* border: 1px solid black; */
+  /*   flex-grow: 1;
+    overflow-x: scroll; */
    }
 
-
+ /* width */
+ ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: grey; 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
 
    /* .crm__gestionTop{
    border: 1px solid black;
@@ -1702,6 +1900,16 @@ right:5px ;
   
    }
 
+
+   .crm__country{
+     /*   align-items: center;
+      display: flex;
+      justify-content: center; */
+      margin-right: 5px;
+      position: relative;
+      top:5px;
+   }
+
    .crm__gestionBold{
    
        font-family: Poppins;
@@ -1709,6 +1917,7 @@ font-style: normal;
 font-weight: bold;
 font-size: 11px;
 line-height: 150%;
+
 /* identical to box height, or 16px */
 
 
@@ -1742,3 +1951,194 @@ th, td {
    
   }
 
+
+/* DROP DOWN */
+.ionicon{
+    text-align: center;
+}
+  
+select {
+ /*    $bg-color: lightcyan; */
+    $text-color: black;
+    appearance: none; // using -prefix-free https://leaverou.github.io/prefixfree/
+    background: {
+     /*  color: $bg-color; */
+      image: url("../img/down.svg");
+     
+      position: right;
+     
+      repeat: no-repeat;
+      
+    }
+    border: {
+   /*    color: mix($bg-color, black, 80%); */
+      radius: .2em;
+      style: solid;
+      width: 1px;
+     /*  right-color: mix($bg-color, black, 60%);
+      bottom-color: mix($bg-color, black, 60%); */
+    }
+    color:  #000;
+  /*   padding: .33em .5em; */
+    width: 20vw;
+    height: 5.8171vh;
+ /*    background: #FFFFFF; */
+    border: 1px solid #E2E8F0;
+    box-sizing: border-box;
+    box-shadow: 0px 3.5px 5.5px rgba(0, 0, 0, 0.02);
+    border-radius: 5px;
+    font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        letter-spacing: 0.05em;
+        text-align: center;
+        outline: none;
+        
+  }
+  
+  // Removes default arrow for IE10+
+  // IE 8/9 get dafault arrow which covers caret image
+  // as long as caret image is small than and positioned
+  // behind default arrow
+  select::-ms-expand {
+      display: none;
+  }
+  
+
+  .crm__fontSelectionFont{
+    color:  #000;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+	 text-align: center;
+
+  }
+
+  .crm_chatBoxInput{
+/*     margin:0px 9px 8.5px 0px; */
+    position: relative;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 15vw;
+    /* margin-top: 50px;
+    margin-left: 5px; */
+    bottom: -70px;
+    left: 5px;
+  }
+  
+  .crm_chatBoxInput input#chat{
+    width: 15vw;
+    height: 39.5px;
+    background: #fff;
+    font-size: 10pt;
+    float: left;
+    color: #fff;
+    padding-left: 5px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    color: #111;
+   font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 150%;
+    outline: none;
+  
+
+/*     display: flex;
+flex-direction: row;
+align-items: center; */
+/* padding: 0px; */
+
+
+
+/* Black&amp;White/White */
+
+border: 0.5px solid #E2E8F0;
+box-sizing: border-box;
+background: rgba(226, 226, 226, 0.5);
+border-radius: 5px;
+  }
+  
+  .crm_chatBoxInput input#chat::-webkit-input-placeholder {
+   /*   color:  #A0AEC0;
+     font-family: Poppins;
+     font-size: 10px;
+     font-style: normal;
+     font-weight: normal;
+     line-height: 150%; */
+
+
+     font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 150%; 
+text-align: left;
+/* identical to box height */
+
+
+color: #939393;
+
+  }
+  
+  .crm_chatBoxInput input#chat:-moz-placeholder { /* Firefox 18- */
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 150%; 
+    /* identical to box height */
+    
+    text-align: left;
+    color: #939393;
+  }
+  
+  .crm_chatBoxInput input#chat::-moz-placeholder {  /* Firefox 19+ */
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 150%; 
+    /* identical to box height */
+    
+    
+    color: #939393;
+  }
+  
+  .crm_chatBoxInput input#chat:-ms-input-placeholder {  
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 150%; 
+/* identical to box height */
+
+
+color: #939393;
+  }
+  
+  
+  .crm_chatBoxInput .icon{
+   
+    height: 15px;
+    margin-left: 17px;
+    margin-top: 10px;
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    width: 15px;
+    z-index: 1;
+    filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
+    color: #3152C7;
+
+box-sizing: border-box;
+     -webkit-transition: all .55s ease;
+    -moz-transition: all .55s ease;
+    -ms-transition: all .55s ease;
+    -o-transition: all .55s ease;
+    transition: all .55s ease;
+  }

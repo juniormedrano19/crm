@@ -1,13 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Icon } from '@iconify/react';
 
 
-
-
-
-
-
 export const CrmTipificaciones = () => {
+   
+
     return (
         <div >
             <div className="crm__tipificaciones">
@@ -18,7 +15,7 @@ export const CrmTipificaciones = () => {
                
             </div>
             <div className="crm__inputsTipificaciones">
-                <div className="crm__inputGroup">
+               {/*  <div className="crm__inputGroup">
                 <input
                 className="crm__inputTip"
                 type="text"
@@ -39,8 +36,8 @@ export const CrmTipificaciones = () => {
                 id="tipificacion"
                 
                 />
-                </div>
-                <div className="crm__inputGroup">
+                </div> */}
+                {/* <div className="crm__inputGroup">
                 <input
                 className="crm__inputTip"
                 type="text"
@@ -50,7 +47,55 @@ export const CrmTipificaciones = () => {
                 id="tipificacion"
                 
                 />
-                </div>
+                </div> */}
+
+
+{/* DropDown */}
+
+
+<div className="crm__inputGroup">
+<select name='options'>
+<option value='option-0' className="crm__fontSelectionFont">Tipificación 1</option>
+  <option value='option-1' className="crm__fontSelectionFont">Option 1</option>
+  <option value='option-2' className="crm__fontSelectionFont">Option 2</option>
+  <option value='option-3' className="crm__fontSelectionFont">Option 3</option>
+  
+</select>
+
+</div>
+
+<div className="crm__inputGroup">
+<select name='options'>
+<option value='option-0' className="crm__fontSelectionFont">Tipificación 2</option>
+  <option value='option-1' className="crm__fontSelectionFont">Option 1</option>
+  <option value='option-2' className="crm__fontSelectionFont">Option 2</option>
+  <option value='option-3' className="crm__fontSelectionFont">Option 3</option>
+  
+</select>
+
+</div>
+
+<div className="crm__inputGroup">
+<select name='options'>
+<option value='option-0' className="crm__fontSelectionFont">Tipificación 3</option>
+  <option value='option-1' className="crm__fontSelectionFont">Option 1</option>
+  <option value='option-2' className="crm__fontSelectionFont">Option 2</option>
+  <option value='option-3' className="crm__fontSelectionFont">Option 3</option>
+  
+</select>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
 
                
                

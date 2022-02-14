@@ -26,54 +26,74 @@ export const CrmIndicator = () => {
                        
                         <div className="crm__textIndicatorLeft">
                              <div className="crm__fontNumberIndicator">15:00</div>
-                             <div className="crm__fontTextIndicator">Minutos</div>
+                           {/*   <div className="crm__fontTextIndicator">Minutos</div> */}
 
                         </div>
                         <div className="crm__iconIndicatorRight" > 
                             <div className="crm__circleIndicatorBlue"><Icon icon="ri:cup-line" className="crm__indicatorIcon"/></div>
-                            <div className="crm__fontTextSub">Break</div>  
+                          {/*   <div className="crm__fontTextSub">Break</div>  */} 
 
                         </div>
                      
                         
                     </div>
                     <div className="crm_cardRed">
-                         <div>
+                    <div className="crm__textIndicatorLeft">
+                             <div className="crm__fontNumberIndicator">50:00</div>
+                           {/*   <div className="crm__fontTextIndicator">Minutos</div> */}
 
                         </div>
-                        <div>
+                        <div className="crm__iconIndicatorRight" > 
+                            <div className="crm__circleIndicatorRed"><Icon icon="ri:cup-line" className="crm__indicatorIcon"/></div>
+                          {/*   <div className="crm__fontTextSub">Break</div>  */} 
 
                         </div>
                     </div>
                     <div className="crm_cardYellow">
-                         <div>
+                    <div className="crm__textIndicatorLeft">
+                             <div className="crm__fontNumberIndicatorBlue">05:00</div>
+                           {/*   <div className="crm__fontTextIndicator">Minutos</div> */}
 
                         </div>
-                        <div>
+                        <div className="crm__iconIndicatorRight" > 
+                            <div className="crm__circleIndicatorYellow"><Icon icon="ri:cup-line" className="crm__indicatorIconBlue"/></div>
+                          {/*   <div className="crm__fontTextSub">Break</div>  */} 
 
                         </div>
                     </div>
                     <div className="crm_cardGreen">
-                         <div>
+                    <div className="crm__textIndicatorLeft">
+                             <div className="crm__fontNumberIndicator">01:35</div>
+                           {/*   <div className="crm__fontTextIndicator">Minutos</div> */}
 
                         </div>
-                        <div>
+                        <div className="crm__iconIndicatorRight" > 
+                            <div className="crm__circleIndicatorGreen"><Icon icon="ri:cup-line" className="crm__indicatorIcon"/></div>
+                          {/*   <div className="crm__fontTextSub">Break</div>  */} 
 
                         </div>
                     </div>
                     <div className="crm_cardBlack">
-                         <div>
+                    <div className="crm__textIndicatorLeft">
+                             <div className="crm__fontNumberIndicator">S/.50</div>
+                           {/*   <div className="crm__fontTextIndicator">Minutos</div> */}
 
                         </div>
-                        <div>
+                        <div className="crm__iconIndicatorRight" > 
+                            <div className="crm__circleIndicatorBlack"><Icon icon="ri:cup-line" className="crm__indicatorIcon"/></div>
+                          {/*   <div className="crm__fontTextSub">Break</div>  */} 
 
                         </div>
                     </div>
                     <div className="crm_cardOrange">
-                         <div>
+                    <div className="crm__textIndicatorLeft">
+                             <div className="crm__fontNumberIndicatorBlue">1175</div>
+                           {/*   <div className="crm__fontTextIndicator">Minutos</div> */}
 
                         </div>
-                        <div>
+                        <div className="crm__iconIndicatorRight" > 
+                            <div className="crm__circleIndicatorOrange"><Icon icon="ri:cup-line" className="crm__indicatorIconBlue"/></div>
+                          {/*   <div className="crm__fontTextSub">Break</div>  */} 
 
                         </div>
                     </div>

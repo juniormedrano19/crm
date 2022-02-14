@@ -2,6 +2,7 @@ import React from 'react';
 import  user1  from '../../styles/img/user1.png';
 import user2  from '../../styles/img/user2.png';
 import user3  from '../../styles/img/user3.png';
+import { Icon } from '@iconify/react';
 
 
 
@@ -39,6 +40,12 @@ export const CrmChat = () => {
                 
                 />
                 </div> */}
+               <div className="crm_chatBoxInput">
+                       
+                         <input type="text" id="chat" placeholder="Iniciar una conversación" />
+                         <span className="icon"><Icon icon="bi:send" /></span>
+                         
+                    </div>
                 </div>
 
             </div>

@@ -52,7 +52,7 @@ export const CrmGestiones = () => {
                     <tbody>
                     <tr>
                         <td className="crm__gestionBold">
-                            <img src={peru}/>
+                        <img src={peru} className="crm__country" />
                             PE_OCC
                             </td>
                         <td className="crm__gestionHistory">958810418</td>
@@ -62,7 +62,7 @@ export const CrmGestiones = () => {
                     </tr>
                     <tr>
                     <td className="crm__gestionBold">
-                            <img src={peru}/>
+                            <img src={peru} className="crm__country" />
                             PE_OCC
                             </td>
                         <td className="crm__gestionHistory">958810418</td>
@@ -72,7 +72,7 @@ export const CrmGestiones = () => {
                     </tr>
                     <tr>
                     <td className="crm__gestionBold">
-                            <img src={peru}/>
+                    <img src={peru} className="crm__country" />
                             PE_OCC
                             </td>
                         <td className="crm__gestionHistory">958810418</td>
@@ -82,7 +82,7 @@ export const CrmGestiones = () => {
                     </tr>
                     <tr>
                     <td className="crm__gestionBold">
-                            <img src={peru}/>
+                    <img src={peru} className="crm__country" />
                             PE_OCC
                             </td>
                         <td className="crm__gestionHistory">958810418</td>
@@ -92,7 +92,7 @@ export const CrmGestiones = () => {
                     </tr>
                     <tr>
                     <td className="crm__gestionBold">
-                            <img src={peru}/>
+                    <img src={peru} className="crm__country" />
                             PE_OCC
                             </td>
                         <td className="crm__gestionHistory">958810418</td>
@@ -102,7 +102,17 @@ export const CrmGestiones = () => {
                     </tr>
                     <tr>
                     <td className="crm__gestionBold">
-                            <img src={peru}/>
+                    <img src={peru} className="crm__country" />
+                            PE_OCC
+                            </td>
+                        <td className="crm__gestionHistory">958810418</td>
+                        <td className="crm__gestionHistory">03/02/2022</td>
+                        <td className="crm__gestionHistory">CAUTIVA</td>
+                        <td className="crm__gestionHistory">No contesta</td>
+                    </tr>
+                    <tr>
+                    <td className="crm__gestionBold">
+                    <img src={peru} className="crm__country" />
                             PE_OCC
                             </td>
                         <td className="crm__gestionHistory">958810418</td>

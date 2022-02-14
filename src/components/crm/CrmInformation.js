@@ -70,7 +70,7 @@ export const CrmInformation = () => {
               </div>
               <div className="crm__infoCard">
                   <div className="crm__infoCardPersonal">
-                      <div className="crm__menu">
+                      <div className="crm__menuTop">
                           <div className="crm__questionIconBlue">
                           <Icon icon="fluent:call-28-filled" className="crm__questionIconWhite" />
                           </div>
@@ -132,6 +132,18 @@ export const CrmInformation = () => {
                               <div className="crm__lineCharge1">
                                   <div className="crm__10"></div>
                                   <div className="crm__90"></div>
+                              </div>
+                          </div>
+                          <div className="crm__CabecerasTitles" >CEL</div>
+                          <div className="crm__CabecerasTitles">Cliente(a)</div>
+                      </div>
+                      <div className="crm__menu">
+                      <div className="crm__CabecerasTitles1">965231456</div>
+                          <div className="crm__cabecerasTop" >
+                              <div className="crm__CabecerasTitlesPercent">50%</div>
+                              <div className="crm__lineCharge1">
+                                  <div className="crm__50"></div>
+                                  <div className="crm__50G"></div>
                               </div>
                           </div>
                           <div className="crm__CabecerasTitles" >CEL</div>

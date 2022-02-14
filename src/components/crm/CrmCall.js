@@ -16,6 +16,7 @@ export const CrmCall = () => {
            
            <div className="crm__call">
               <div className="crm_callContainer">
+              <div className="crm_callContainer2">
               <input
                 className="crm__input"
                 type="text"
@@ -25,8 +26,9 @@ export const CrmCall = () => {
                 id="number"
                 
                 />
-
+              </div>
                 <div className="crm__buttonsCall">
+                  <div className="crm_callContainer1">
                   <div className="crm__buttonSuccess">
                      
                       <div><Icon icon="fluent:call-28-filled"  className="crm__buttonIcon" /></div>
@@ -44,6 +46,7 @@ export const CrmCall = () => {
                       <div><Icon icon="icon-park-outline:transfer-data" className="crm__buttonIcon1" /></div>
                       
                       
+                  </div>
                   </div>
                </div>
 
