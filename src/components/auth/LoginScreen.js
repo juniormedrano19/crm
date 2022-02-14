@@ -122,7 +122,7 @@ export const LoginScreen = () => {
         </div>
                
                   
-               <input
+               {/* <input
                 className="auth__input"
                 type="password"
                 placeholder="Escribe tu contraseña"
@@ -131,8 +131,20 @@ export const LoginScreen = () => {
                 id="password"
                 
                 />
-                {/* <i onClick={Eye} className={`fa ${eye ? "fa-eye-slash" : "fa-eye" }`}></i> */}
-                <Icon onClick={Eye} className="auth__eye" icon={`${eye ? "fluent:eye-off-24-filled" : "fluent:eye-24-filled" }`} />
+                <i onClick={Eye} className={`fa ${eye ? "fa-eye-slash" : "fa-eye" }`}></i>
+                <Icon onClick={Eye} className="auth__eye" icon={`${eye ? "fluent:eye-off-24-filled" : "fluent:eye-24-filled" }`} /> */}
+                <div className="auth__inputPass1">
+                         <span className="icon"> <Icon onClick={Eye} className="auth__eye" icon={`${eye ? "fluent:eye-off-24-filled" : "fluent:eye-24-filled" }`} /></span>
+                      <input
+                className="auth__input1"
+                type="password"
+                placeholder="Escribe tu contraseña"
+                autoComplete="off"
+                name="password"
+                id="password"
+                
+                />
+                    </div>
             </div>
 
 
