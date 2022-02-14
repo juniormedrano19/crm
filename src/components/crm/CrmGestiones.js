@@ -1,6 +1,6 @@
 import React from 'react';
 import { Icon } from '@iconify/react';
-import peru from '../../styles/img/peru.png'
+import peru from '../../styles/img/peru.png';
 
 
 

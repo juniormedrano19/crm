@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-
-/* import microsoft_icon from '../../styles/img/microsoft_icon.svg'; */
 import google from '../../styles/img/google.svg';
 import microsoft from '../../styles/img/microsoft.svg';
 import { Icon } from '@iconify/react';

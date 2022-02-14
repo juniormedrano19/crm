@@ -1,6 +1,7 @@
 import React from 'react';
-import llamada  from '../../styles/img/llamada.png';
 import { Icon } from '@iconify/react';
+import llamada  from '../../styles/img/llamada.png';
+
 
 
 
