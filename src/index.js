@@ -11,7 +11,7 @@ import { CrmScreen } from './components/crm/CrmScreen';
 
 ReactDOM.render(
 
-<CrmScreen />
+<LoginScreen />
 ,
   document.getElementById('root')
 );
